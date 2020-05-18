@@ -8,4 +8,11 @@ let numbers = [4,2,6];
 numbers.sort((a,b) => b - a);
 console.log(numbers);
 
+let names = ['John', 'Mac', 'Peter'];
+let lengths = names.map(name => name.length);
+console.log(lengths);
+
+let except = msg => {
+  throw msg;
+};
 
